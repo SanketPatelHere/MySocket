@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MySocket</string>
+    <string name="BASE_URL1">wss://echo.websocket.org/</string>
+    <string name="BASE_URL2">http://192.168.0.118:5001/</string>
+    <string name="BASE_URL3">http://52.13.102.121/</string>
+    <string name="BASE_URL4">http://52.13.102.121/</string>
+    <string name="BASE_URL_NEW">http://192.168.0.166:3000</string>
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clipToPadding="false"
+    >
+    <LinearLayout
+        android:id="@+id/llSender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#eeddcc">
+
+        <View
+            android:id="@+id/avatar"
+            android:layout_alignParentLeft="true"
+            android:scaleType="centerInside"
+            android:background="@drawable/circle"
+            android:layout_width="34dp"
+            android:layout_height="34dp" />
+
+        <TextView
+            android:id="@+id/message_user"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/avatar"
+            android:layout_alignTop="@+id/avatar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="4dp"
+            android:text="Me-Sanket"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/message_user"
+            android:layout_alignParentLeft="true"
+            android:textSize="20sp"
+            android:text="19-03-2020(11:59:13)"
+            android:id="@+id/message_time" />
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/llSender"
+        android:layout_marginTop="-5dp"
+        android:id="@+id/message_text"
+        android:background="@drawable/my_message"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:elevation="2dp"
+        android:layout_alignParentRight="true"
+        android:text="Placeholder message"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+</RelativeLayout>
